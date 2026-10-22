@@ -90,11 +90,35 @@ dilution below it. Both species are therefore modelled and reported separately.
 - The `fetch_eucast_ecoff.py` output depends on the current state of the EUCAST
   database; values are subject to revision by EUCAST.
 - Clinical breakpoints cited in the manuscript are from EUCAST v16.1 and from
-  CLSI M100 (Ed32 revision values, unchanged through Ed34). Those documents are
-  not redistributed here — please consult EUCAST and CLSI directly.
+  **CLSI M100 Ed36** (read from Tables 2A-1 and 2B-1 of the standard itself).
+  Those documents are not redistributed here — please consult EUCAST and CLSI
+  directly.
 
 ## Citation
 
-If you use this code, please cite the manuscript (DOI to be added on
-publication). Archived release: see the Zenodo DOI in the repository
-description.
+The manuscript is under review. If you use this code before it appears, please
+cite this archived release:
+
+> Chen H, Li Y, Hua B, Sun Y. *Oral fluoroquinolone step-down for non-HACEK
+> Gram-negative infective endocarditis: a Monte Carlo PK/PD eligibility
+> analysis.* Simulation code and result files (version 1.0.0). Science Data
+> Bank; 2026. https://doi.org/10.57760/sciencedb.015m5
+
+The archived, DOI-bearing copy is deposited in the **Science Data Bank**
+(ScienceDB, https://www.scidb.cn/, operated by the Computer Network Information
+Center of the Chinese Academy of Sciences), which issued the DOI and a CSTR on
+publication (19 October 2026):
+
+- DOI: `10.57760/sciencedb.015m5` — https://doi.org/10.57760/sciencedb.015m5
+- CSTR: `31253.11.sciencedb.015m5` — https://cstr.cn/31253.11.sciencedb.015m5
+- Landing page: https://www.scidb.cn/detail?dataSetId=35c0b02b9fc84a32a5586a206e6220db
+
+The same DOI appears in the manuscript's Data availability statement, where the
+archived release is cited as reference [25].
+
+Corresponding author: Huiwen Chen (陈慧文), Department of Cardiac Surgery,
+Wuhan Asia Heart Hospital. ORCID 0009-0006-4948-0174.
+
+## License
+
+MIT — see `LICENSE`.
