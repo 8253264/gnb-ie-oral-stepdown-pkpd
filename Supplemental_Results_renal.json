@@ -1,0 +1,58 @@
+{
+ "TABLE6": [
+  {
+   "row": "Levo 500 mg once daily (AUC >= 125)",
+   "dose": 500,
+   "target": 125.0,
+   "mg_per_L": {
+    ">80": "0.25",
+    "50-80": "0.5",
+    "20-49": "1",
+    "<20": "1"
+   }
+  },
+  {
+   "row": "Levo 750 mg once daily (AUC >= 125)",
+   "dose": 750,
+   "target": 125.0,
+   "mg_per_L": {
+    ">80": "0.5",
+    "50-80": "1",
+    "20-49": "2",
+    "<20": "2"
+   }
+  },
+  {
+   "row": "Levo 750 mg once daily (AUC >= 250)",
+   "dose": 750,
+   "target": 250.0,
+   "mg_per_L": {
+    ">80": "0.25",
+    "50-80": "0.5",
+    "20-49": "1",
+    "<20": "1"
+   }
+  }
+ ],
+ "LEGACY_RECONSTRUCTION": {
+  "note": "Reproduces the superseded Table 6; retained for audit only.",
+  "levo_500_AUC125_lognormal_cv25": {
+   ">80": "0.25",
+   "50-80": "0.5",
+   "20-49": "1",
+   "<20": "1"
+  },
+  "levo_750_AUC125_deterministic_500mg_AUC": {
+   ">80": "0.25",
+   "50-80": "0.5",
+   "20-49": "1",
+   "<20": "2"
+  },
+  "levo_750_AUC250_deterministic_500mg_AUC": {
+   ">80": "0.125",
+   "50-80": "0.25",
+   "20-49": "0.5",
+   "<20": "1"
+  }
+ }
+}
